@@ -38,3 +38,14 @@ body {
     text-align: center;
     margin: 10px 0; /* Voeg wat marge toe onder de alinea */
 }
+
+.footer {
+    text-align: center;
+    margin-bottom: 2%;
+    color: aliceblue;
+}
+
+.footer a {
+    text-decoration: none;
+    color: aliceblue;
+}
