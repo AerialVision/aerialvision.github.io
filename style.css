@@ -6,7 +6,7 @@ body, html {
 
 .deel-1 {
     position: relative;
-    height: 100vh;
+    height: 100%;
     background-image: url('assets/images/drone_mountians.png');
     background-size: cover;
     background-position: center;
@@ -18,9 +18,9 @@ body, html {
     position: absolute;
     top: 20px;
     left: 20px;
-    font-size: 20px; /* Aangepaste waarde voor een grotere tekst */
-    font-weight: 700; /* Aangepaste waarde voor een zwaardere font-weight */
-    color: #FFFFFF; /* Witte kleur voor het logo */
+    font-size: 20px; 
+    font-weight: 700;
+    color: #FFFFFF;
     font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
@@ -37,8 +37,8 @@ nav a {
     text-decoration: none;
     margin-left: 20px;
     transition: color 0.3s;
-    font-size: 28px; /* Aangepaste waarde voor een grotere tekst in de navbar */
-    font-weight: 500; /* Aangepaste waarde voor een zwaardere font-weight */
+    font-size: 28px; 
+    font-weight: 500;
 }
 
 nav a:hover {
@@ -53,14 +53,39 @@ nav a:hover {
     margin-left: 20px;
 }
 
-.text-middle {
-    position: absolute;
-    top: 75%; /* Aangepaste waarde om de tekst naar beneden te verplaatsen */
-    left: 50%;
-    transform: translate(-50%, -50%);
+.border-order a {
+    position: relative;
+    text-align: center;
+    margin: 0;
 }
 
-.text-middle img {
+.text-middle {
+    position: absolute;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+    top: 75%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #0062FF;
+}
+
+.text-middle h1 {
     max-width: 100%;
-    height: auto;
+    height: 10%;
+}
+
+.deel-2 {
+    height: 100vh;
+    background-position: center;
+    background-color: #262626;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    height: 80vh;
+    background-color: #FFFFFF;
+    margin: auto;
 }
