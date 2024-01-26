@@ -1,26 +1,23 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
+    font-family: Inter, sans-serif;
 }
 
-.deel-1 {
-    position: relative;
-    height: 100%;
+.first-part {
+    height: 100vh;
+    width: 100%;
     background-image: url('assets/images/drone_mountians.png');
     background-size: cover;
-    background-position: center;
-    color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
 }
 
 .logo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    font-size: 20px; 
+    position: relative;
+    top: 1%;
+    left: 1%;
+    font-size: 20px;
     font-weight: 700;
-    color: #FFFFFF;
+    color: #FFFFFF; 
     font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
@@ -28,7 +25,7 @@ body, html {
 nav {
     position: absolute;
     top: 10px;
-    right: 10px;
+    right: 1%;
     font-family: 'Karantina', sans-serif;
 }
 
@@ -37,8 +34,8 @@ nav a {
     text-decoration: none;
     margin-left: 20px;
     transition: color 0.3s;
-    font-size: 28px; 
-    font-weight: 500;
+    font-size: 28px;
+    font-weight: 500; 
 }
 
 nav a:hover {
@@ -50,42 +47,31 @@ nav a:hover {
     border: 2px solid #0062FF;
     display: inline-block;
     padding: 5px;
-    margin-left: 20px;
-}
-
-.border-order a {
-    position: relative;
-    text-align: center;
     margin: 0;
 }
 
-.text-middle {
-    position: absolute;
-    padding: 20px;
-    border: 3px solid #FFFFFF;
-    top: 75%; 
-    left: 50%;
-    transform: translate(-50%, -50%);
+.border-order a {
+    margin: 0;
+}
+
+.title-middle-border {
+    width: 45%;
+    height: 10vh;
+    border: 3px solid #ffffff;
+    box-shadow: 2px 2px 2px #0062FF;
     border-radius: 10px;
-    box-shadow: 4px 4px 4px #0062FF;
+    margin-left: 20%;
+    margin-top: 40%;
+
 }
 
-.text-middle h1 {
-    max-width: 100%;
-    height: 10%;
-}
-
-.deel-2 {
-    height: 100vh;
-    background-position: center;
-    background-color: #262626;
-    font-family: 'Inter', sans-serif;
-}
-
-.container {
-    width: 80%;
-    padding: 20px;
-    height: 80vh;
-    background-color: #FFFFFF;
-    margin: auto;
+.title-middle-border h1 {
+    color: #0062FF;
+    font-size: 60px;
+    font-family: Inter;
+    font-style: Black;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-top: 2.5%;
+    margin-bottom: auto;
 }
