@@ -1,0 +1,40 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #1F1F1F;
+    margin: 0; /* Voeg dit toe om de standaard marges te verwijderen */
+}
+
+.h1 {
+    text-align: center;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around; /* Of space-between, afhankelijk van je voorkeur */
+}
+
+.property {
+    width: 30vh; /* Geef elke container een vaste breedte */
+    height: auto;
+    margin: 10px; /* Voeg marge toe voor gelijke afstand */
+    background-color: #000000;
+    border-radius: 10px;
+    overflow: hidden; /* Zorg ervoor dat de afbeeldingen niet uitsteken */
+}
+
+.property a {
+    text-decoration: none;
+}
+.property img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover; /* Zorg ervoor dat de afbeeldingen de container bedekken */
+}
+
+.property p {
+    color: aliceblue;
+    text-align: center;
+    margin: 10px 0; /* Voeg wat marge toe onder de alinea */
+}
