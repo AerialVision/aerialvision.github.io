@@ -1,6 +1,6 @@
 # Aerialvision main site
 **Planning**
 - Mailserver
-- Copyright
+- ~~Copyright~~
 - Cookies
 - Contactform
