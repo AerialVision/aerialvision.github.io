@@ -7,7 +7,7 @@ body, html {
 .first-part {
     height: 100vh;
     width: 100%;
-    background-image: url('assets/images/drone_mountians.png');
+    background-image: url('assets/images/drone_mountians_toned.png');
     background-size: cover;
 }
 
