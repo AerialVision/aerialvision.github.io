@@ -1,51 +1,165 @@
-body {
-    font-family: "Poppins", sans-serif;
-    background-color: #1F1F1F;
-    margin: 0; /* Voeg dit toe om de standaard marges te verwijderen */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
 }
 
-.h1 {
-    text-align: center;
-    color: aliceblue;
-    font-family: "Poppins", sans-serif;
+.first-part {
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets/images/drone_mountians.png');
+    background-size: cover;
 }
 
-.row {
-    display: flex;
-    justify-content: space-around; /* Of space-between, afhankelijk van je voorkeur */
-}
-
-.property {
-    width: 30vh; /* Geef elke container een vaste breedte */
-    height: auto;
-    margin: 10px; /* Voeg marge toe voor gelijke afstand */
-    background-color: #000000;
-    border-radius: 10px;
-    overflow: hidden; /* Zorg ervoor dat de afbeeldingen niet uitsteken */
-}
-
-.property a {
+.logo {
+    position: relative;
+    top: 1%;
+    left: 1%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF; 
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
 }
-.property img {
-    width: 100%;
+
+nav {
+    position: absolute;
+    top: 10px;
+    right: 1%;
+    font-family: 'Karantina', sans-serif;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+    font-size: 28px;
+    font-weight: 500; 
+}
+
+nav a:hover {
+    color: #0062FF;
+    border-bottom: 2px solid #0062FF;
+}
+
+.border-order {
+    border: 2px solid #0062FF;
+    display: inline-block;
+    padding: 5px;
+    margin: 0;
+}
+
+.border-order a {
+    margin: 0;
+}
+
+.title-middle-border {
+    width: 45%;
+    height: 10vh;
+    border: 3px solid #ffffff;
+    box-shadow: 4px 4px 4px #0062FF;
     border-radius: 10px;
-    object-fit: cover; /* Zorg ervoor dat de afbeeldingen de container bedekken */
+    margin-left: 20%;
+    margin-top: 40%;
+    user-select: none;
 }
 
-.property p {
-    color: aliceblue;
+.title-middle-border h1 {
+    color: #0062FF;
+    font-size: 65px;
+    font-family: Inter;
+    font-style: Black;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
-    margin: 10px 0; /* Voeg wat marge toe onder de alinea */
+    margin-top: 2%;
+    margin-bottom: auto;
+    user-select: none;
 }
 
+/* Second Part Styling */
+.second-part {
+    background-color: #262626;
+    height: auto;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.container h2 {
+    font-family: 'Inter', sans-serif;
+    color: #262626;
+    font-size: 50px;
+    margin-top: 1%;
+}
+
+.container h2 a {
+    color: #0062FF;
+}
+
+.service-containers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.service {
+    width: 30%;
+    border: 1px solid #262626;
+    border-radius: 5px;
+    height: 72%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.service img {
+    margin-top: 1.5%;
+    width: 95%;
+    height: 36%;
+    border-radius: 5px;
+}
+
+.service h1 {
+    color: #0062FF;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.service p {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: #000;
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+}
+
+/* Footer Styling */
 .footer {
     text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    margin-top: 1%;
+    bottom: 2%;
     margin-bottom: 2%;
-    color: aliceblue;
 }
 
 .footer a {
     text-decoration: none;
-    color: aliceblue;
+    color: #FFFFFF;
 }
