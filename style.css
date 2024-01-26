@@ -58,20 +58,108 @@ nav a:hover {
     width: 45%;
     height: 10vh;
     border: 3px solid #ffffff;
-    box-shadow: 2px 2px 2px #0062FF;
+    box-shadow: 4px 4px 4px #0062FF;
     border-radius: 10px;
     margin-left: 20%;
     margin-top: 40%;
-
+    user-select: none;
 }
 
 .title-middle-border h1 {
     color: #0062FF;
-    font-size: 60px;
+    font-size: 65px;
     font-family: Inter;
     font-style: Black;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
-    margin-top: 2.5%;
+    margin-top: 2%;
     margin-bottom: auto;
+    user-select: none;
+}
+
+/* Second Part Styling */
+.second-part {
+    background-color: #262626;
+    height: auto;
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.container h2 {
+    font-family: 'Inter', sans-serif;
+    color: #262626;
+    font-size: 50px;
+    margin-top: 1%;
+}
+
+.container h2 a {
+    color: #0062FF;
+}
+
+.service-containers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.service {
+    width: 30%;
+    border: 1px solid #262626;
+    border-radius: 5px;
+    height: 72%;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.service img {
+    margin-top: 1.5%;
+    width: 95%;
+    height: 36%;
+    border-radius: 5px;
+}
+
+.service h1 {
+    color: #0062FF;
+    font-size: 20px;
+    margin-left: 1%;
+}
+
+.service p {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    color: #000;
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+    margin-top: 1%;
+    bottom: 2%;
+    margin-bottom: 2%;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
