@@ -1,6 +1,7 @@
 # Aerialvision main site
 **Planning**
 - Mailserver
-- ~~Copyright~~
 - Cookies
 - Contactform
+- Hamburgermenu
+- Gallerij || FOTOS
