@@ -1,3 +1,4 @@
+index.html:
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
@@ -22,11 +23,23 @@
 <body>
     <div class="first-part">
         <nav>
+            <p>Aerialvision<b>.</b></p>
+
             <a href="/">HOME</a>
             <a href="https://aerialvision.space/over-ons">OVER ONS</a>
             <a href="https://aerialvision.space/diensten">DIENSTEN</a>
             <a href="https://aerialvision.space/gallerij">GALLERIJ</a>
             <a href="https://aerialvision.space/contacteer-ons">CONTACT</a>
+
+            <a href="https://facebook.com/aerialvision.">
+                <img src="assets/icons/facebook.svg">
+            </a>
+            <a href="https://youtube.com/channel/aerialvision.">
+                <img src="assets/icons/youtube.svg">
+            </a>
+            <a href="x.com/aerialvision.">
+                <img src="assets/icons/x.svg">
+            </a>
         </nav>
 
         <h1 class="h1">GESPECIALISEERD IN</h1>
@@ -39,7 +52,7 @@
     </div>
 
     <div class="second-part">
-        <img src="assets/images/aqueduct.png">
+        <img src="assets/images/aquaduct-droneshot.png">
 
         <h1><a>KWALITEIT</a> DIENSTEN</h1>
         <p>Bij AerialVision draait alles om topkwaliteit diensten die de verwachtingen overtreffen. Onze drone mapping-service levert niet alleen nauwkeurige 3D-modellen en gedetailleerde 2D-kaarten, maar biedt ook een ongeëvenaarde precisie die cruciaal is voor diverse toepassingen. Of het nu gaat om het verkennen van bouwterreinen, landmetingen of stadsplanning, wij leveren resultaten waarop u kunt vertrouwen.<br>
@@ -53,64 +66,61 @@
     </div>
 
     <div class="third-part">
-        <h1 class="head-1"><a>LATEST</a> NEWS</h1>
-    
-        <div class="articles">
-            <div class="article">
-                <img src="assets/uploads/article-29dec-1.png">
+        <h1>LATEST NEWS</h1>
 
-                <div class="article-infocontainer">
-                    <h1 class="article-date">29 DECEMBER 2023</h1>
-                    <p class="article-description">Verlaging van onze tarieven na veel interesse?</p>
-                </div>
+        <div class="article">
+            <img src="assets/uploads/article-29dec-1.png">
+
+            <div class="article-infocontainer">
+                <h1 class="article-date">29 DECEMBER 2023</h1>
+                <p class="article-description">Verlaging van onze tarieven na veel interesse?</p>
             </div>
+        </div>
 
-            <div class="article">
-                <img src="assets/uploads/article-6jan-1.png">
+        <div class="article">
+            <img src="assets/uploads/article-6jan-1.png">
 
-                <div class="article-infocontainer">
-                    <h1 class="article-date">6 JANUARI 2024</h1>
-                    <p class="article-description">Uitbreiding van onze diensten naar omliggende dorpen?</p>
-                </div>
+            <div class="article-infocontainer">
+                <h1 class="article-date">6 JANUARI 2024</h1>
+                <p class="article-description">Uitbreiding van onze diensten naar omliggende dorpen?</p>
             </div>
+        </div>
 
-            <div class="article">
-                <img src="assets/uploads/article-20jan-1.png">
+        <div class="article">
+            <img src="assets/uploads/article-20jan-1.png">
 
-                <div class="article-infocontainer">
-                    <h1 class="article-date">20 JANUARI 2024</h1>
-                    <p class="article-description">Nieuwe dienst toevoeging aan ons pakket, inspecties?</p>
-                </div>
+            <div class="article-infocontainer">
+                <h1 class="article-date">20 JANUARI 2024</h1>
+                <p class="article-description">Nieuwe dienst toevoeging aan ons pakket, inspecties?</p>
             </div>
+        </div>
 
-            <div class="article">
-                <img src="assets/uploads/article-29jan-1.png">
+        <div class="article">
+            <img src="assets/uploads/article-29jan-1.png">
 
-                <div class="article-infocontainer">
-                    <h1 class="article-date">29 JANUARI 2024</h1>
-                    <p class="article-description">Nieuwe dienst toevoeging aan ons pakket, inspecties?</p>
-                </div>
+            <div class="article-infocontainer">
+                <h1 class="article-date">29 JANUARI 2024</h1>
+                <p class="article-description">Nieuwe dienst toevoeging aan ons pakket, inspecties?</p>
             </div>
         </div>
     </div>
 
     <div class="fourth-part">
         <h1 class="title"><a>OUR</a> PREVIEWS</h1>
-        <div class="imgs-row">
-            <img src="assets/uploads/previews-1.png">
-            <img src="assets/uploads/previews-2.png">
-            <img src="assets/uploads/previews-3.png">
-            <img src="assets/uploads/previews-4.png">
-            <img src="assets/uploads/previews-5.png">
-            <img src="assets/uploads/previews-6.png">
-        </div>
+
+        <img src="assets/uploads/previews-1.png">
+        <img src="assets/uploads/previews-2.png">
+        <img src="assets/uploads/previews-3.png">
+        <img src="assets/uploads/previews-4.png">
+        <img src="assets/uploads/previews-5.png">
+        <img src="assets/uploads/previews-6.png">
     </div>
 
     <div class="footer">
         <div class="row-socials">
-            <a href="https://facebook.com/aerialvision."><img src="assets/icons/facebook.svg" href="https://facebook.com/aerialvision."></a>
-            <a href="https://www.youtube.com/channel/UCaBhRNC1GXvgD4iYqVze-3Q"><img src="assets/icons/youtube.svg" href="https://www.youtube.com/channel/UCaBhRNC1GXvgD4iYqVze-3Q"></a>
-            <a href="https://x.com/aerialvision."><img src="assets/icons/x.svg" href="https://x.com/aerialvision."></a>
+            <img src="assets/icons/facebook.svg">
+            <img src="assets/icons/youtube.svg">
+            <img src="assets/icons/x.svg">
         </div>
 
         <p><a href="information">Info</a> ◦ <a href="support">Support</a> ◦ <a href="marketing">Marketing</a></p>
@@ -119,5 +129,44 @@
         <p><a href="copyright">© 2023 Aerial Vision</a></p>
     </div>
 </body>
-<script type="text/javascript"> window.$crisp=[];window.CRISP_WEBSITE_ID="c09a0660-6f0b-4427-859d-b7733c4cefea";(function(){ d=document;s=d.createElement("script"); s.src="https://client.crisp.chat/l.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})(); </script>
-</html>
+
+style.css:
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #262626;
+}
+
+.first-part {
+    width: 100%;
+    height: 100vh;
+    background-image: url('assets/images/drone_desert.jpg');
+    background-size: cover;
+}
+
+.first-part nav {
+    width: 80%;
+    height: 3%;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+
+First-part:
+als eerste, de achtergrond, deze neemt 100% van de hoogte en breedte. Daarnaast zit er op 1% hoogte van de bovenkant van de achtergrond, een navbar, deze is in de kleur #F0F8FF. Dan heb je de p van de nav, deze is in de kleur #0062FF, en de b is in de kleur #000000 dit is beide in de font poppins, in de font-weight 700 .  Dan heb je in dezelfde navbar, op een horizontale rij in het midden van de navbar zit de text dus, in de font poppins, en font size 20 en fontweight 200, en met een kleine ruimte ertussen. Dan heb je daarnaast dan vervolgens de 3 logos, en deze zitten ook op een horizontale rij in het midden kwa hoogte van de nav, en zonder streepje eronder.
+
+Vervolgens heb je op 50% hoogte van de bovekant van de achtergrond de text in font poppins met fontweight 50 fontsize 20 en in het midden gecentreerd, zit een text in de kleur #FFFFFF, dit is h1.
+
+Vervolgens heb je h2 1% onder h1 met font-size 60px en ook in kleur #FFFFFF, en in het midden gecentreerd. Deze is in fontweight 250. ook in font poppins
+
+Vervolgens heb je h3, in font poppins. in fontsize 20px, in het midden gecentreerd font weight 50, en kleur #FFFFFF. 
+
+Vervolgens daaronder, ook in het midden zit de discover-now border, in kleur #FFFFFF, deze is 12.5% breedt, en 5% hoog. en heeft een border-radius van 10px. Daarin zit in het midden a, zonder text-decoration, en in de kleur #FFFFFF, fontsize 20px.
+
+Second-part:
+Dit zit direct onder first-part, met achtergrond kleur #262626
+
+Vervolgens heb je img, aan de linker kant 2.5% van de zijkant met een border-radius van 10px, hij zit 3.5% van de bovenkant van second-part. Daarnaast rechts, zit h1 , deze zit rechts naast img ook op 3.5% hoogte van de bovenkant en 2% afstand van img aan de linkerkant, deze is in font-size 35px en fontweight 200, deze is in kleur #FFFFFF, h1 a is  in kleur #0062FF. 
+
+Dan heb je ook naast img, heb je p op 2.5% afstand van img onder h1, in de font poppins, fontsize 12.5px en fontweight 50.
