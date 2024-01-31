@@ -25,8 +25,8 @@ body {
 }
 
 .first-part nav {
-    position: absolute;
-    top: 10px;
+    position: absolute; 
+    top: 10px; 
     width: 100%;
     text-align: center;
 }
@@ -68,29 +68,49 @@ body {
     width: 100%;
 }
 
-.bar {
-    background-color: #F0F8FF;
-    margin: 20px;
+.over-ons-container {
+    width: 85%;
+    height: 60vh;
     padding: 10px;
     border-radius: 10px;
-    position: relative;
+    opacity: 50%;
+    background-color: #D9D9D9;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 5%;
 }
 
-.toggle-bar {
-    color: #0062FF;
-    font-size: 20px;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
+.over-ons-container h1 {
+    opacity: 100%;
+    text-align: center;
+    font-size: large;
+    font-style: SemiBold;
 }
 
-.container {
-    display: none;
+.over-ons-container p {
+    font-size: medium;
 }
 
-.container p {
-    font-size: 15px;
-    color: #000000;
+/* Footer Styles */
+.footer {
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.footer .row-socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer .row-socials img {
+    margin: 0 10px;
+    height: 20px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 10px;
 }
