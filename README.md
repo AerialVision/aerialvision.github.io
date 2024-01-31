@@ -1,7 +1,7 @@
 # Aerialvision main site
 **Planning**
-- Mailserver
-- Cookies
-- Contactform
-- Hamburgermenu
-- Gallerij || FOTOS
+- ~~Mailserver~~
+- ~~Cookies~~ // Edit: data word niet gebruik; niet nodig
+- Contactform // Edit: api zoeken
+- ~~Hamburgermenu~~
+- ~~Gallerij || FOTOS~~

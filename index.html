@@ -95,15 +95,15 @@
     </div>
 
     <div class="fourth-part">
-        <h1 class="title"><a>OUR</a> PREVIEWS</h1>
-        <div class="imgs-row">
-            <img src="assets/uploads/previews-1.png">
-            <img src="assets/uploads/previews-2.png">
-            <img src="assets/uploads/previews-3.png">
-            <img src="assets/uploads/previews-4.png">
-            <img src="assets/uploads/previews-5.png">
-            <img src="assets/uploads/previews-6.png">
-        </div>
+      <h1 class="title"><a>OUR</a> PREVIEWS</h1>
+      <div class="imgs-row">
+        <img src="assets/uploads/previews-1.png" onclick="openLightbox('assets/uploads/previews-1.png')">
+        <img src="assets/uploads/previews-2.png" onclick="openLightbox('assets/uploads/previews-2.png')">
+        <img src="assets/uploads/previews-3.png" onclick="openLightbox('assets/uploads/previews-3.png')">
+        <img src="assets/uploads/previews-4.png" onclick="openLightbox('assets/uploads/previews-4.png')">
+        <img src="assets/uploads/previews-5.png" onclick="openLightbox('assets/uploads/previews-5.png')">
+        <img src="assets/uploads/previews-6.png" onclick="openLightbox('assets/uploads/previews-6.png')">
+      </div>
     </div>
 
     <div class="footer">
@@ -118,6 +118,12 @@
 
         <p><a href="copyright">© 2023 Aerial Vision</a></p>
     </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="expandedImg">
+      </div>
 </body>
 <script type="text/javascript"> window.$crisp=[];window.CRISP_WEBSITE_ID="c09a0660-6f0b-4427-859d-b7733c4cefea";(function(){ d=document;s=d.createElement("script"); s.src="https://client.crisp.chat/l.js"; s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})(); </script>
+<script src="assets/scripts/image-closelook.js"></script>
 </html>
