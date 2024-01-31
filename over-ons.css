@@ -1,104 +1,96 @@
-body, html {
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
-    font-family: Inter, sans-serif;
-    overflow: hidden;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #262626;
+    overflow-x: hidden;
+}
+
+/* First Part Styles */
 .first-part {
-    height: 120vh;
     width: 100%;
-    background-image: url('assets/images/drone_mountians_toned.png');
+    height: 100vh;
+    background-image: url('assets/images/drone_desert.jpg');
     background-size: cover;
-}
-
-.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 1%;
-    left: 1%;
-    font-size: 20px;
-    font-weight: 700;
-    color: #FFFFFF; 
-    font-family: 'Inter', sans-serif;
-    text-decoration: none;
 }
 
-nav {
+.first-part nav {
     position: absolute;
     top: 10px;
-    right: 1%;
-    font-family: 'Karantina', sans-serif;
+    width: 100%;
+    text-align: center;
 }
 
-nav a {
-    color: #FFFFFF;
+.first-part nav a {
     text-decoration: none;
-    margin-left: 20px;
-    transition: color 0.3s;
-    font-size: 28px;
-    font-weight: 500; 
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    margin: 0;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-nav a:hover {
+.first-part nav a {
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first-part nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #FFFFFF;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.first-part nav a:hover::after {
+    width: 100%;
+}
+
+.bar {
+    background-color: #F0F8FF;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.toggle-bar {
     color: #0062FF;
-    border-bottom: 2px solid #0062FF;
-}
-
-.border-order {
-    border: 2px solid #0062FF;
-    display: inline-block;
-    padding: 5px;
-    margin: 0;
-}
-
-.border-order a {
-    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
 }
 
 .container {
-    padding: 10px;
-    background-color: #FFFFFF;
-    width: 50%;
-    height: 80vh;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4%;
-    border-radius: 10px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    overflow: scroll;
-}
-
-.container h1 {
-    text-align: center;
-    font-family: Inter, sans-serif;
-    font-size: 40px;
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.container h1 a {
-    color: #0062FF;
+    display: none;
 }
 
 .container p {
-    text-align: left;
-    margin-left: 5%;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* Footer Styling */
-.footer {
-    text-align: center;
-    color: #fff;
-    font-weight: 500;
     font-size: 15px;
-    position: relative;
-    margin-top: 2px;
-}
-
-.footer a {
-    text-decoration: none;
-    color: #FFFFFF;
-    user-select: none;
+    color: #000000;
 }
