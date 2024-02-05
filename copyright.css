@@ -14,7 +14,7 @@ body {
 /* First Part Styles */
 .first-part {
     width: 100%;
-    height: 120vh;
+    height: auto;
     background-image: url('assets/images/tinted_background.png');
     background-size: cover;
     display: flex;
@@ -69,7 +69,7 @@ body {
 }
 
 .container {
-    width: 50%;
+    width: 75%;
     height: auto;
     padding: 10px;
     border-radius: 10px;
@@ -89,7 +89,7 @@ body {
 }
 
 .container p {
-    font-size: medium;
+    font-size: small;
     color: #000;
 }
 
