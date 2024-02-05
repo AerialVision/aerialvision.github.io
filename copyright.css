@@ -1,110 +1,151 @@
-body, html {
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
-    font-family: Inter, sans-serif;
-    overflow: hidden;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #262626;
+    overflow-x: hidden;
+}
+
+/* First Part Styles */
 .first-part {
-    height: 110vh;
     width: 100%;
-    background-image: url('assets/images/drone_mountians_toned.png');
+    height: 120vh;
+    background-image: url('assets/images/tinted_background.png');
     background-size: cover;
-}
-
-.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    top: 1%;
-    left: 1%;
-    font-size: 20px;
-    font-weight: 700;
-    color: #FFFFFF; 
-    font-family: 'Inter', sans-serif;
+}
+
+.first-part nav {
+    position: absolute; 
+    top: 10px; 
+    width: 100%;
+    text-align: center;
+}
+
+.first-part nav a {
     text-decoration: none;
-}
-
-nav {
-    position: absolute;
-    top: 10px;
-    right: 1%;
-    font-family: 'Karantina', sans-serif;
-}
-
-nav a {
     color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    margin: 0;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first-part nav a {
+    position: relative;
     text-decoration: none;
-    margin-left: 20px;
-    transition: color 0.3s;
-    font-size: 28px;
-    font-weight: 500; 
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-nav a:hover {
-    color: #0062FF;
-    border-bottom: 2px solid #0062FF;
+.first-part nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #FFFFFF;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-.border-order {
-    border: 2px solid #0062FF;
-    display: inline-block;
-    padding: 5px;
-    margin: 0;
-}
-
-.border-order a {
-    margin: 0;
+.first-part nav a:hover::after {
+    width: 100%;
 }
 
 .container {
-    padding: 10px;
-    background-color: #FFFFFF;
     width: 50%;
-    height: auto;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
+    height: 75vh;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    overflow: scroll;
-}
+    opacity: 0.5;
+    background-color: #D9D9D9;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 5%;
+}   
 
 .container h1 {
+    opacity: 1;
     text-align: center;
-    font-family: Inter, sans-serif;
-    font-size: 40px;
-    color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.container h1 a {
-    color: #0062FF;
+    font-size: large;
+    font-weight: bold;
 }
 
 .container p {
-    text-align: left;
-    margin-left: 5%;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: medium;
+    color: #000;
 }
 
-.container p a {
-    color: #000000;
+.container input {
+    width: 90%;
+    background-color: transparent;
+    border: solid 1px #262626;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 8px;
+    color: #000;
 }
 
-/* Footer Styling */
-.footer {
-    text-align: center;
+.large-input {
+    width: 90%;
+    height: 20vh;
+    background-color: transparent;
+    border: solid 1px #262626;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 8px;
+    color: #000;
+}
+
+.container button {
+    width: auto; /* Change to auto to adjust based on content */
+    height: 40px; /* Adjust the height as needed */
+    background-color: #0062FF;
+    border: 1px solid #0062FF;
+    border-radius: 5px; /* Adjust the border-radius as needed */
     color: #fff;
-    font-weight: 500;
-    font-size: 15px;
-    position: relative;
-    margin-top: 2%;
-    bottom: 2%;
-    margin-bottom: 2%;
+    font-size: medium;
+    font-family: "Poppins", sans-serif;
+    margin: auto;
+    display: block;
 }
 
-.footer a {
+/* Footer Styles */
+.footer {
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.footer .row-socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer .row-socials img {
+    margin: 0 10px;
+    height: 20px;
+}
+
+.footer p a {
     text-decoration: none;
     color: #FFFFFF;
-    user-select: none;
+    margin: 0 10px;
 }
