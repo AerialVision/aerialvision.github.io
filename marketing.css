@@ -1,0 +1,116 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #262626;
+    overflow-x: hidden;
+}
+
+/* First Part Styles */
+.first-part {
+    width: 100%;
+    height: auto;
+    background-image: url('assets/images/drone_desert.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.first-part nav {
+    position: absolute; 
+    top: 10px; 
+    width: 100%;
+    text-align: center;
+}
+
+.first-part nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    margin: 0;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first-part nav a {
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.first-part nav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #FFFFFF;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.first-part nav a:hover::after {
+    width: 100%;
+}
+
+.over-ons-container {
+    width: 85%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 50%;
+    background-color: #D9D9D9;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 5%;
+}   
+
+.over-ons-container h1 {
+    opacity: 100%;
+    text-align: center;
+    font-size: large;
+    font-style: SemiBold;
+}
+
+.over-ons-container p {
+    font-size: small;
+}
+
+/* Footer Styles */
+.footer {
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.footer .row-socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer .row-socials img {
+    margin: 0 10px;
+    height: 20px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 10px;
+}
