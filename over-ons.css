@@ -14,7 +14,7 @@ body {
 /* First Part Styles */
 .first-part {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: url('assets/images/drone_desert.jpg');
     background-size: cover;
     display: flex;
@@ -70,13 +70,14 @@ body {
 
 .over-ons-container {
     width: 85%;
-    height: 60vh;
+    height: auto;
     padding: 10px;
     border-radius: 10px;
-    opacity: 50%;
-    background-color: #D9D9D9;
+    background-color: rgba(217, 217, 217, 0.5); /* Semi-transparante achtergrondkleur */
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     margin-top: 5%;
+    justify-content: center;
+    align-items: center;
 }   
 
 .over-ons-container h1 {
@@ -88,6 +89,12 @@ body {
 
 .over-ons-container p {
     font-size: small;
+}
+
+.over-ons-container img {
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Footer Styles */
